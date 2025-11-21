@@ -134,14 +134,35 @@ public class NetworkManager
     
     public static string GetLocalIPAddress()
     {
-        var host = Dns.GetHostEntry(Dns.GetHostName());
-        foreach (var ip in host.AddressList)
+        try
         {
-            if (ip.AddressFamily == AddressFamily.InterNetwork)
+            using (Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
             {
-                return ip.ToString();
+                socket.Connect("8.8.8.8", 65530);
+                if (socket.LocalEndPoint is IPEndPoint endPoint)
+                {
+                    return endPoint.Address.ToString();
+                }
             }
         }
+        catch
+        {
+            // Fallback to naive method if no internet or socket fails
+        }
+
+        try 
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+        }
+        catch { }
+        
         return "127.0.0.1";
     }
 }

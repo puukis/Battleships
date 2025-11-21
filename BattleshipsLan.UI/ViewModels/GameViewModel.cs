@@ -52,6 +52,7 @@ public class GameViewModel : ViewModelBase
         _enemyBoard = new Board(); // Tracks what we know about enemy
         GameState = GameState.Menu;
         HostIpDisplay = NetworkManager.GetLocalIPAddress();
+        IpAddressInput = HostIpDisplay;
     }
 
     // Properties

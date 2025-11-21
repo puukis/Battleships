@@ -9,3 +9,4 @@
 /Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Debug/net9.0/refint/BattleshipsLan.Core.dll
 /Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Debug/net9.0/BattleshipsLan.Core.pdb
 /Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Debug/net9.0/ref/BattleshipsLan.Core.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Debug/net9.0/BattleshipsLan.Core.sourcelink.json

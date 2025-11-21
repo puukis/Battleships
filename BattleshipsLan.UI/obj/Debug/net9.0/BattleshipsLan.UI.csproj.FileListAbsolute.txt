@@ -75,3 +75,4 @@
 /Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.UI/obj/Debug/net9.0/BattleshipsLan.UI.pdb
 /Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.UI/obj/Debug/net9.0/BattleshipsLan.UI.genruntimeconfig.cache
 /Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.UI/obj/Debug/net9.0/ref/BattleshipsLan.UI.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.UI/obj/Debug/net9.0/BattleshipsLan.UI.sourcelink.json
