@@ -1,0 +1,80 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:BattleshipsLan.UI.ViewModels"
+             x:Class="BattleshipsLan.UI.Views.GameView"
+             x:DataType="vm:GameViewModel">
+    <StackPanel Spacing="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="{Binding StatusMessage}" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Blue"/>
+        
+        <StackPanel Orientation="Horizontal" Spacing="50">
+            <!-- My Board -->
+            <StackPanel>
+                <TextBlock Text="My Board" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                <Border BorderBrush="Black" BorderThickness="2">
+                    <ItemsControl ItemsSource="{Binding FlattenedMyBoard}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <UniformGrid Rows="10" Columns="10" Width="300" Height="300"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Gray" BorderThickness="0.5">
+                                    <Panel Background="{Binding Converter={StaticResource TileStatusToBrushConverter}}"/>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Border>
+            </StackPanel>
+
+            <!-- Enemy Board -->
+            <StackPanel>
+                <TextBlock Text="Enemy Board" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                <Border BorderBrush="Black" BorderThickness="2">
+                    <ItemsControl ItemsSource="{Binding FlattenedEnemyBoard}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <UniformGrid Rows="10" Columns="10" Width="300" Height="300"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Command="{Binding $parent[UserControl].((vm:GameViewModel)DataContext).FireShotByIndex}"
+                                        CommandParameter="{Binding $parent[ItemsControl].IndexFromContainer, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ContentPresenter}}"
+                                        Padding="0" Margin="0" BorderThickness="0.5" BorderBrush="Gray"
+                                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                    <Panel Width="30" Height="30" Background="{Binding Converter={StaticResource TileStatusToBrushConverter}}"/>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
+            <Button Content="{Binding RowBombText}" Command="{Binding UseRowBomb}" CommandParameter="0" IsEnabled="{Binding CanUseRowBomb}"/>
+            <!-- Note: Row Bomb needs a target row. For simplicity, let's make it random or ask for input? 
+                 The prompt says "Ask the player to select a row". 
+                 Implementing a row selector is tricky in this layout. 
+                 Let's add a ComboBox for Row selection next to the button. -->
+             <ComboBox SelectedIndex="0" Width="100" x:Name="RowSelector">
+                 <ComboBoxItem>Row 1</ComboBoxItem>
+                 <ComboBoxItem>Row 2</ComboBoxItem>
+                 <ComboBoxItem>Row 3</ComboBoxItem>
+                 <ComboBoxItem>Row 4</ComboBoxItem>
+                 <ComboBoxItem>Row 5</ComboBoxItem>
+                 <ComboBoxItem>Row 6</ComboBoxItem>
+                 <ComboBoxItem>Row 7</ComboBoxItem>
+                 <ComboBoxItem>Row 8</ComboBoxItem>
+                 <ComboBoxItem>Row 9</ComboBoxItem>
+                 <ComboBoxItem>Row 10</ComboBoxItem>
+             </ComboBox>
+             <Button Content="Fire Row Bomb" 
+                     Command="{Binding UseRowBomb}" 
+                     CommandParameter="{Binding #RowSelector.SelectedIndex}"
+                     IsEnabled="{Binding CanUseRowBomb}"/>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,15 @@
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/bin/Debug/net9.0/BattleshipsLan.Network.deps.json
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/bin/Debug/net9.0/BattleshipsLan.Network.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/bin/Debug/net9.0/BattleshipsLan.Network.pdb
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/bin/Debug/net9.0/BattleshipsLan.Core.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/bin/Debug/net9.0/BattleshipsLan.Core.pdb
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/BattleshipsLan.Network.csproj.AssemblyReference.cache
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/BattleshipsLan.Network.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/BattleshipsLan.Network.AssemblyInfoInputs.cache
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/BattleshipsLan.Network.AssemblyInfo.cs
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/BattleshipsLan.Network.csproj.CoreCompileInputs.cache
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/Battlesh.EAF02D5C.Up2Date
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/BattleshipsLan.Network.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/refint/BattleshipsLan.Network.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/BattleshipsLan.Network.pdb
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/Debug/net9.0/ref/BattleshipsLan.Network.dll

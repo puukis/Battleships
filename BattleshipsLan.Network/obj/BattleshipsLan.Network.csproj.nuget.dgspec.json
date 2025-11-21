@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/BattleshipsLan.Network.csproj": {}
+  },
+  "projects": {
+    "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/BattleshipsLan.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/BattleshipsLan.Core.csproj",
+        "projectName": "BattleshipsLan.Core",
+        "projectPath": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/BattleshipsLan.Core.csproj",
+        "packagesPath": "/Users/leonardgunder/.nuget/packages/",
+        "outputPath": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardgunder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/BattleshipsLan.Network.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/BattleshipsLan.Network.csproj",
+        "projectName": "BattleshipsLan.Network",
+        "projectPath": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/BattleshipsLan.Network.csproj",
+        "packagesPath": "/Users/leonardgunder/.nuget/packages/",
+        "outputPath": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Network/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardgunder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/BattleshipsLan.Core.csproj": {
+                "projectPath": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/BattleshipsLan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

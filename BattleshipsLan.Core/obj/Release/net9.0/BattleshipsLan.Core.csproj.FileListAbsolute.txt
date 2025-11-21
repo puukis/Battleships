@@ -1,0 +1,11 @@
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/bin/Release/net9.0/BattleshipsLan.Core.deps.json
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/bin/Release/net9.0/BattleshipsLan.Core.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/bin/Release/net9.0/BattleshipsLan.Core.pdb
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/BattleshipsLan.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/BattleshipsLan.Core.AssemblyInfoInputs.cache
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/BattleshipsLan.Core.AssemblyInfo.cs
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/BattleshipsLan.Core.csproj.CoreCompileInputs.cache
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/BattleshipsLan.Core.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/refint/BattleshipsLan.Core.dll
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/BattleshipsLan.Core.pdb
+/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/obj/Release/net9.0/ref/BattleshipsLan.Core.dll

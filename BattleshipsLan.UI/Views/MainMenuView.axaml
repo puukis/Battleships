@@ -1,0 +1,42 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:BattleshipsLan.UI.ViewModels"
+             x:Class="BattleshipsLan.UI.Views.MainMenuView"
+             x:DataType="vm:GameViewModel">
+    <StackPanel Spacing="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="LAN Battleship" FontSize="30" HorizontalAlignment="Center"/>
+        
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <TextBlock Text="Your IP:" VerticalAlignment="Center"/>
+            <TextBlock Text="{Binding HostIpDisplay}" FontWeight="Bold" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <Border BorderBrush="Gray" BorderThickness="1" Padding="20" CornerRadius="5">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Host Game" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="Port:" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding PortInput}" Width="100"/>
+                </StackPanel>
+                <Button Content="Host" Command="{Binding HostGame}"/>
+            </StackPanel>
+        </Border>
+
+        <Border BorderBrush="Gray" BorderThickness="1" Padding="20" CornerRadius="5">
+            <StackPanel Spacing="10">
+                <TextBlock Text="Join Game" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="IP:" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding IpAddressInput}" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="Port:" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding PortInput}" Width="100"/>
+                </StackPanel>
+                <Button Content="Join" Command="{Binding JoinGame}"/>
+            </StackPanel>
+        </Border>
+        
+        <TextBlock Text="{Binding StatusMessage}" Foreground="Red" HorizontalAlignment="Center"/>
+    </StackPanel>
+</UserControl>

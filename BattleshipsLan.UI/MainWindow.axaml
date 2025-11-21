@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:BattleshipsLan.UI.ViewModels"
+        xmlns:views="using:BattleshipsLan.UI.Views"
+        xmlns:converters="using:BattleshipsLan.UI.Converters"
+        x:Class="BattleshipsLan.UI.MainWindow"
+        x:DataType="vm:GameViewModel"
+        Title="BattleshipsLan"
+        Width="800" Height="600">
+
+    <Window.Resources>
+        <converters:TileStatusToBrushConverter x:Key="TileStatusToBrushConverter"/>
+    </Window.Resources>
+
+    <Panel>
+        <views:MainMenuView IsVisible="{Binding IsMenuVisible}"/>
+        <views:PlacementView IsVisible="{Binding IsPlacementVisible}"/>
+        <views:GameView IsVisible="{Binding IsGameVisible}"/>
+    </Panel>
+
+</Window>

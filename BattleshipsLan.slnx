@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BattleshipsLan.Core/BattleshipsLan.Core.csproj" />
+  <Project Path="BattleshipsLan.Network/BattleshipsLan.Network.csproj" />
+  <Project Path="BattleshipsLan.UI/BattleshipsLan.UI.csproj" />
+</Solution>

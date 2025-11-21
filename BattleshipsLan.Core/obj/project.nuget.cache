@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "v4yIfDlkKyo=",
+  "success": true,
+  "projectFilePath": "/Users/leonardgunder/dev/projekte/c-languages/C#/BattleshipsLan/BattleshipsLan.Core/BattleshipsLan.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/leonardgunder/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/leonardgunder/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
